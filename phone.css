@@ -1,0 +1,43 @@
+#navbar{
+    flex-direction: column;
+    align-items: center;
+}
+#navbar .logo{
+    margin: auto;
+    height: 35px;
+}
+#navbar .logo img{
+    height: 45px;
+}
+#navbar ul li a{
+    font-size: 10px;
+    padding:4px 15px;
+}
+#introduction{
+    padding: 0px;
+}
+#introduction::before{
+    height: 57%;
+}
+#services{
+    flex-direction: column;
+}
+#services .box1{
+    margin:3px 0px;
+}
+#client{
+    flex-wrap: wrap;
+}
+#client-section::before{
+    height: 40%;
+} 
+#client .client-items img{
+    height: 43px;
+    padding: 5px 5px;
+}
+#contact::before{
+    height: 56%;
+}
+#contact-box form{
+    width: 80%;
+}

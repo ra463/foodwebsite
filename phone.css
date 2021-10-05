@@ -42,9 +42,6 @@
     border: 2px solid black;
     border-radius: 25px
 }
-#client-section::before{
-    height: 40%;
-} 
 #client .client-items {
     padding: 13px;
 }

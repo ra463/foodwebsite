@@ -3,21 +3,32 @@
     align-items: center;
 }
 #navbar .logo{
-    margin: auto;
+    margin-top: -6px;
     height: 35px;
 }
 #navbar .logo img{
-    height: 45px;
+    height: 30px;
+}
+#navbar ul{
+    margin-left: -8px;
+    padding: 10px;
 }
 #navbar ul li a{
-    font-size: 10px;
-    padding:4px 15px;
+   font-size: 13px;
+   padding:4px 8px;
+   font-weight: bold;
 }
 #introduction{
     padding: 0px;
 }
 #introduction::before{
     height: 57%;
+}
+#primary{
+    margin-top: 36px;
+}
+.heading1{
+    margin-top: 20px;
 }
 #services{
     flex-direction: column;
@@ -27,16 +38,22 @@
 }
 #client{
     flex-wrap: wrap;
+    margin-top: 34px;
+    border: 2px solid black;
+    border-radius: 25px
 }
 #client-section::before{
     height: 40%;
 } 
+#client .client-items {
+    padding: 13px;
+}
 #client .client-items img{
     height: 43px;
     padding: 5px 5px;
 }
 #contact::before{
-    height: 56%;
+    height: 65%;
 }
 #contact-box form{
     width: 80%;

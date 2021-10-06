@@ -22,7 +22,7 @@
     padding: 0px;
 }
 #introduction::before{
-    height: 45%;
+    height: 50%;
 }
 #primary{
     margin-top: 36px;
@@ -50,7 +50,7 @@
     padding: 5px 5px;
 }
 #contact::before{
-    height: 55%;
+    height: 60%;
 }
 #contact-box form{
     width: 80%;

@@ -9,6 +9,7 @@ html{
 #navbar{
     display: flex;
     position: fixed;
+    width:100vw;
 }
 .logo{
     height: 75px;

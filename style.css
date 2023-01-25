@@ -12,18 +12,18 @@ html{
     width:100vw;
 }
 .logo{
-    height: 75px;
+    height: 50px;
     display: flex;
 }
 .logo img{
-    height:60px;
+    height:41px;
     padding: 5px;
     margin: 5px 30px;
 }
 #navbar ul{
     display: flex;
     margin-left: -30px;
-    padding: 24px;
+    padding: 15px;
 }
 #navbar ul li{
     list-style: none;
